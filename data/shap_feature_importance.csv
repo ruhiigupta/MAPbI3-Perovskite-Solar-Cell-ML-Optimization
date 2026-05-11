@@ -1,0 +1,11 @@
+Feature,Mean_abs_SHAP
+Temperature,2.7401254082907807
+Absorber thickness,2.0846399641029874
+Ideality factor,1.5862600718558857
+log(J0 reference),1.2442813007247406
+Series resistance,0.5216261322613385
+log(Bulk defect density),0.4926928686059691
+Jsc reference,0.3154313132403369
+log(Interface defect density),0.18786045592454462
+Bandgap,0.15496499377884235
+log(Shunt resistance),0.12772904941775048

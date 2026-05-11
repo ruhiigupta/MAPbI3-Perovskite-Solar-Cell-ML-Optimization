@@ -1,0 +1,9 @@
+Result,Value
+Baseline simulated PCE,15.13 %
+Approximate SQ limit for MAPbI3,32.89 %
+Best ML model,Gradient Boosting
+Best model R²,0.9589
+Best model MAE,0.8554 % PCE
+Optimized simulated PCE,27.17 %
+PCE improvement,12.05 percentage points
+Dominant SHAP features,"Temperature, absorber thickness, ideality factor, J0, series resistance"

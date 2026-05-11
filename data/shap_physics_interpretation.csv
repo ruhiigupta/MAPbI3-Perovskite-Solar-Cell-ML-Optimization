@@ -1,0 +1,11 @@
+Feature,Physical group,Expected effect on PCE,Physical reason,Mean_abs_SHAP
+Temperature,Operating condition,Higher temperature generally reduces PCE,Higher temperature increases dark saturation current and reduces open-circuit voltage Voc.,2.7401254082907807
+Absorber thickness,Optical absorption,PCE increases up to an optimum/saturation thickness,"A thicker MAPbI3 absorber absorbs more photons and increases Jsc, but after saturation additional thickness gives limited benefit.",2.0846399641029874
+Ideality factor,Recombination mechanism,Represents recombination pathway and diode non-ideality,The ideality factor reflects whether recombination is closer to radiative or SRH-dominated behavior.,1.5862600718558857
+log(J0 reference),Recombination,Higher J0 generally reduces PCE,J0 is the dark saturation current. Higher J0 increases recombination and lowers Voc.,1.2442813007247406
+Series resistance,Charge transport,Higher series resistance reduces FF and PCE,"Series resistance causes voltage loss during current extraction, mainly reducing the fill factor.",0.5216261322613385
+log(Bulk defect density),Bulk recombination,Higher defect density reduces PCE,"Bulk defects act as trap-assisted recombination centers, increasing SRH recombination and reducing Voc/FF.",0.4926928686059691
+Jsc reference,Photocurrent generation,Higher Jsc reference increases PCE,Jsc represents the maximum available photocurrent under illumination.,0.3154313132403369
+log(Interface defect density),Interface recombination,Higher interface defect density can reduce PCE,Interface defects promote recombination at ETL/perovskite and perovskite/HTL junctions.,0.18786045592454462
+Bandgap,Absorption-voltage tradeoff,There is an optimum bandgap,Lower bandgap increases Jsc but reduces Voc; higher bandgap increases Voc but reduces absorption and Jsc.,0.15496499377884235
+log(Shunt resistance),Leakage path,Higher shunt resistance usually improves PCE,"Higher Rsh reduces leakage current, improving Voc and FF.",0.12772904941775048
